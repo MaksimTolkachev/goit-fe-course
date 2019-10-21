@@ -1,0 +1,75 @@
+nav p{
+    padding: 40px;
+}
+nav a{
+text-decoration: none;
+font-family: "Playfair Display";
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+text-transform: uppercase;
+color: #03a9f4;
+padding: 85px;
+}
+
+main{
+    width: 1100px;
+}
+.block1{
+    width: 400px;
+    margin: 50px;
+    display: inline-block;
+}
+.block2{
+    width: 400px;
+    margin: 50px;
+    display: inline-block;
+}
+.block3{
+    width: 400px;
+    margin: 50px;
+    display: inline-block;
+}
+.block4{
+    margin: 50px;
+    width: 400px;
+    display: inline-block;
+}
+.block5{
+    width: 400px;
+    margin: 50px;
+    display: inline-block;
+}
+.block6{
+    margin: 50px;
+    width: 400px;
+    display: inline-block;
+}
+main div p{
+color: #b4ad9e;
+font-family: Ubuntu;
+font-size: 14px;
+font-weight: 300;
+text-transform: uppercase;
+}
+main div h1{
+font-family: "Playfair Display";
+font-size: 30px;
+font-weight: 400;
+}
+button{
+font-family: "Playfair Display";
+font-size: 20px;
+margin-left: 450px;
+margin-right: 350px;
+margin-top: 50px;
+font-weight: 400;
+line-height: 45px;
+border: 1px solid #626262;
+}
+main b{
+font-family: "Playfair Display";
+font-size: 17px;
+font-weight: 400;
+line-height: 24px;
+}
