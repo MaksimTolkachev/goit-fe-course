@@ -1,0 +1,128 @@
+body {
+padding: 1rem;
+}
+a {
+text-decoration: none;
+}
+header{
+width: 1647px;
+height: 75px;
+}
+.header img{
+width: 78px;
+height: 21px;
+margin-left: 261px;
+margin-top: 38px;
+float: left;
+}
+.obj link{
+    height: 261px;
+}
+ul{
+margin-left: 906px;
+padding-top: 41px;
+}
+li{
+display: inline;
+color: #0f0101;
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 700;
+line-height: 11px;
+text-transform: uppercase;
+letter-spacing: -0.28px;
+padding: 10px;
+}
+li:nth-of-type(1){
+color: #1abc9c;
+font-family: "Open Sans";
+font-weight: 700;
+letter-spacing: -0.28px;
+}
+h1{
+color: #515151;
+font-family: "Roboto - Black";
+font-size: 48px;
+font-weight: 400;
+line-height: 32px;
+text-transform: uppercase;
+letter-spacing: -0.96px;
+margin-left: 589px;
+margin-top: 111px;
+}
+.obj{
+display: inline-flex;
+width: 255px;
+height: 322px;
+margin: 15px 15px;
+background: #fff;
+cursor: pointer;
+background-color: #e9f0fd;
+}  
+.obj-img-wrp {
+overflow: hidden;
+height: 282px;
+line-height: 282px;
+text-align: center;
+}  
+.obj-img {
+vertical-align: middle;
+max-width: 100%;
+}
+.obj-text-wrp {
+height: calc(322px - 283px);
+width: 255px;
+line-height: calc(322px - 283px);
+background: #323232;
+overflow: hidden;
+color: #fff;
+font-size: 18px;
+font-family: "Roboto", sans-serif;
+text-transform: uppercase;
+transition-duration: 0.3s;
+}
+.title {
+padding-left: 14px;
+}
+.price {
+float: right;
+background: #8c8c8c;
+padding: 0 12px;
+transition-duration: 0.3s;
+}
+.obj:hover .obj-text-wrp {
+background: #1abc9c;
+}
+.obj:hover .obj-price {
+background: #7fd9c7;
+}
+section{
+    margin-top: 92px;
+    margin-left: 262px;
+}
+.h1{
+    margin-left: 661px;
+}
+.objfoot{
+margin-left: 224px;
+color: #555252;
+font-family: "Open Sans - Semibold";
+font-size: 18px;
+font-weight: 400;
+line-height: 26px;
+}
+.objfoot div{
+    display: inline-block;
+    width: 350px;
+    margin: 30px;
+}
+.objfoot button{
+width: 159px;
+height: 51px;
+background-color: #4ec6ab;
+color: #ffffff;
+font-family: "Open Sans";
+font-size: 16px;
+font-weight: 300;
+line-height: 26px
+}

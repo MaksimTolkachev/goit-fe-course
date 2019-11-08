@@ -1,0 +1,40 @@
+body{
+    margin: 20px;
+}
+.main{
+    padding: 50px;
+    background-color: rgb(0, 0, 0);
+    width: 400px;
+    border: 2px solid blue;
+    border-radius: 20px;
+    box-shadow: 20px 20px 4px gold;
+    cursor: pointer;
+    /*transition-property: width;
+    transition-duration: 1.2s;
+    transition-timing-function: linear;
+    transition-delay: .5s;
+    transform: skew(20deg, 10deg);*/
+    transition: width, 1.2s, linear, 5s
+    
+}
+/*.sister{
+    padding: 50px;
+    background-color: yellow;
+    width: 100px;
+    border: 2px solid green;
+    border-radius: 20px;
+    cursor: pointer;
+}*/
+.main:hover{
+    width: 200px;
+   /* background-color: red;*/
+}
+/*.main:hover{
+    box-shadow: none;
+    transform: translate(20px, 20px);
+}*/
+p{
+    color: white;
+    font-size: 30px ;
+    text-shadow: 10px 10px 5px darkviolet;
+}
