@@ -1,0 +1,19 @@
+.gallery-item {
+    display: block;
+    width: 100%;
+}
+.date {
+    background-color: #95e1d3;
+    color: #fff;
+    width: 60px;
+    box-sizing: border-box;
+    bottom: 16px;
+    left: -16px;
+}
+.footer-text,
+.list-title{
+color: #999999;
+}
+i {
+    color: #95e1d3;
+}

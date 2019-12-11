@@ -1,0 +1,64 @@
+form {
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 600px;
+    box-shadow: 6px 6px 2px 0 purple;
+}
+* {
+    box-sizing: border-box;
+}
+.text,
+.password,
+.number,
+.email
+ {
+    width: 50%;
+    padding: 5px;
+    font-size: 24px;
+    border-radius: 5px;
+    border: 1px solid red;
+    display: block;
+}
+
+h2 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+label {
+    font-style: italic;
+    font-size: 20px;
+    display: block;
+}
+input {
+    margin-bottom: 20px;
+}
+.holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxes,
+.buttons {
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 10px;
+    width: 45%;
+}
+
+.boxes input,
+.buttons input {
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+.boxes label,
+.buttons label {
+    display: inline-block;
+}
+select{
+    width: 300px;
+    padding: 10px;
+
+}

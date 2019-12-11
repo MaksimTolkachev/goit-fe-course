@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lesson</title>
+<link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <form action="#" method="GET">
+            <h2>Our form</h2>
+            <label for="text"> Name</label>
+            <input class="text" type="text" name="text" id="text" placeholder="Введите имя..." required />
+           
+            
+            <label for="pass">Password</label>
+            <input class="password" type="password" name="pass" id="pass" placeholder="Введите пароль..." required>
+    
+        <label for="number"> Your ID</label>
+        <input class="number" type="number" name="number" id="number" placeholder="Введите номер..." required>
+
+        <label for="email">E-mail</label>
+        <input class="email" type="email" name="email" id="email" required>
+
+        <div class="holder">
+                <div class="boxes">
+                    <h3>Title</h3>
+                    <input type="checkbox" name="boxes"/>
+                    <label for="boxes">label 1</label>
+                    <input type="checkbox" name="boxes"/>
+                    <label for="boxes">label 2</label>
+                    <input type="checkbox" name="boxes"/>
+                    <label for="boxes">label 3</label>
+                </div>
+        
+                <div class="buttons">
+                    <h3>Title</h3>
+                        <input type="radio" name="radio"/>
+                        <label for="radio">label 1</label>
+                        <input type="radio" name="radio"/>
+                        <label for="radio">label 2</label>
+                        <input type="radio" name="radio"/>
+                        <label for="radio">label 3</label>
+                </div>
+            </div>
+            <label for="file"> Отправить файл</label>
+            <input type="file" name="file" id="file">
+            <input type="submit" value="Отправить форму">
+            <button type="submit"> Отправить форму</button>
+            <input type="color" name="color" id="color">
+
+            <textarea name="text" id="text" cols="30" rows="10"></textarea>
+        
+           <select name="select" id="select">
+               <option value="1">option 1</option>
+               <option value="2">option 2</option>
+               <option value="3">option 3</option>
+               <option value="4">option 4</option>
+               <option value="5">option 5</option>
+           </select>
+        </form>
+</body>
+</html>

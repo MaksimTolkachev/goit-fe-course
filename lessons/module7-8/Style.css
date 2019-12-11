@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+table{
+    border-collapse: collapse;
+    width: 400px;
+}
+th{
+    background-color: #1565c0;
+    color: aliceblue;
+}
+.first:nth-child(even) {
+    background-color: #e3f2fd;
+
+}
+.first:nth-child(odd) {
+    background-color: #5ee971
+}
+.foot {
+    border-top: 1px solid #1565c0;
+    background-color: rgb(246, 125, 250);
+}
+caption{
+    background-color: rgb(255, 1, 1);
+}

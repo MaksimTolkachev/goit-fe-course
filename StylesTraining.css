@@ -1,0 +1,41 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    color: #6c7279;
+    font-size: 14px;
+    line-height: 21px;
+    margin: 0;
+}
+.page-header{
+    background-color: #3a3e64;
+    height: 46px;
+padding: 20px;
+}
+nav{
+    float: right;
+}
+.site-navigation{
+font-size: 13px;
+list-style: none;
+display: inline-flex;
+}
+.site-navigation a{
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 16px;
+    margin: 20px;
+}
+.features-list{
+    list-style: none;
+}
+.features-list h3{
+color: #2d3033;
+line-height: 17px;
+}
+.team-list-occupation{
+    color: brown;
+}
+.page-footer{
+    background-color: #3a3e64;
+}
