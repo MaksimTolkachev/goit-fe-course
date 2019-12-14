@@ -1,0 +1,257 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+}
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+.container {
+  width: 320px;
+  text-align: center;
+}
+
+.head {
+  background-image: url(./img/head/Vector_Smart_Object.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.head-wrapper {
+  background: rgba(3, 1, 1, 0.3);
+  height: 540px;
+}
+.log,
+.sign {
+  width: 90px;
+  height: 36px;
+  border: 0 none;
+  cursor: pointer;
+  outline: none;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 115px;
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0);
+}
+.log:hover,
+.sign:hover {
+  background-image: url(./img/head/Rectangle_2.png);
+  background-position: center;
+  background-color: rgba(255, 255, 255, 0);
+}
+.first-name,
+.second-line {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+.first-name {
+  font-size: 20px;
+  margin-bottom: 38px;
+}
+.title-first {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.title-second {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.find-button {
+  width: 280px;
+  height: 40px;
+  border: 0 none;
+  cursor: pointer;
+  outline: none;
+  background-color: #ff4e50;
+  border-radius: 20px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+}
+.main-title {
+  color: #333333;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 70px;
+  margin-bottom: 15px;
+}
+.content-item {
+  margin-bottom: 30px;
+  width: 200px;
+}
+.img-wrapper {
+  position: relative;
+  width: 122px;
+}
+.item-title {
+  color: #333333;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+}
+.about {
+  color: #666666;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+}
+.one:after {
+  background-image: url(./img/main/1-layers.png);
+  background-repeat: no-repeat;
+  width: 42px;
+  height: 42px;
+  display: block;
+  content: "";
+  position: absolute;
+  top: 68%;
+  left: 68%;
+}
+.two:after {
+  background-image: url(./img/main/2-layers.png);
+  background-repeat: no-repeat;
+  width: 42px;
+  height: 42px;
+  display: block;
+  content: "";
+  position: absolute;
+  top: 68%;
+  left: 68%;
+}
+.three:after {
+  background-image: url(./img/main/3-layers.png);
+  background-repeat: no-repeat;
+  width: 42px;
+  height: 42px;
+  display: block;
+  content: "";
+  position: absolute;
+  top: 68%;
+  left: 68%;
+}
+.four:after {
+  background-image: url(./img/main/4-layers.png);
+  background-repeat: no-repeat;
+  width: 42px;
+  height: 42px;
+  display: block;
+  content: "";
+  position: absolute;
+  top: 68%;
+  left: 68%;
+}
+.btn-foot {
+  width: 280px;
+  height: 40px;
+  border: 0 none;
+  cursor: pointer;
+  outline: none;
+  background-color: #ffffff;
+  border: 2px solid #ff4e50;
+  border-radius: 20px;
+  color: #ff4e50;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 58px;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    width: 768px;
+  }
+  .head {
+    position: relative;
+  }
+  .head-block {
+    width: 750px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .autorize {
+    margin-top: 30px;
+    float: right;
+  }
+  .first-name {
+    margin-top: 56px;
+    float: left;
+  }
+  .title-block {
+    position: absolute;
+    bottom: 30%;
+    right: 16%;
+  }
+  .title-first {
+    margin-bottom: 40px;
+  }
+  .title-second {
+    margin-bottom: 34px;
+  }
+  .main-title {
+    margin-bottom: 34px;
+  }
+  .content-wrapper {
+    width: 560px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .content-item {
+    margin-bottom: 60px;
+  }
+  .content-item:nth-of-type(2-n) {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .container {
+    width: 1440px;
+  }
+  .head-block {
+    width: 950px;
+  }
+  .head {
+    position: relative;
+  }
+  .autorize {
+    float: right;
+    margin-top: 20px;
+  }
+  .first-name {
+    float: left;
+    margin-top: 46px;
+  }
+  .title-block {
+    position: absolute;
+    bottom: 30%;
+    right: 20%;
+  }
+  .title-first {
+    font-size: 52px;
+    font-weight: 700;
+}
+  .title-second {
+    font-size: 24px;
+    font-weight: 300;
+}
+.main-title {
+  margin-bottom: 32px;
+}
+.content-wrapper {
+  width: 920px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+}
