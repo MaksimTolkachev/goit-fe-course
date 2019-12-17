@@ -226,4 +226,7 @@
     flex-direction: row-reverse;
     margin-bottom: 40px;
   }
+.content-wrapper {
+  display: flex;
+}
 }
