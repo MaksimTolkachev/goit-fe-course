@@ -1,3 +1,122 @@
-.head {
-    background-image: url(./img/head/Vector_Smart_Object.png);
+.header {
+  background-image: url(./img/head/Vector_Smart_Object.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
+.head {
+  background: rgba(3, 1, 1, 0.3);
+}
+.autorize {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+}
+.log,
+.sign {
+  width: 90px;
+  height: 36px;
+  border: 0 none;
+  cursor: pointer;
+  outline: none;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: rgba(255, 255, 255, 0);
+}
+.log:hover,
+.sign:hover {
+  background-image: url(./img/head/Rectangle_2.png);
+  background-position: center;
+  background-color: rgba(255, 255, 255, 0);
+}
+.first-name {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 20px;
+}
+.title-first {
+  font-family: Montserrat;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.title-second {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 300;
+}
+.find-button {
+  width: 280px;
+  height: 40px;
+  border: 0 none;
+  cursor: pointer;
+  outline: none;
+  background-color: #ff4e50;
+  border-radius: 20px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+}
+.one:after {
+  background-image: url(./img/main/1-layers.png);
+  background-repeat: no-repeat;
+  width: 42px;
+  height: 42px;
+  display: block;
+  content: "";
+  position: absolute;
+  top: 69%;
+  left: 58%;
+}
+.two:after {
+  background-image: url(./img/main/2-layers.png);
+  background-repeat: no-repeat;
+  width: 42px;
+  height: 42px;
+  display: block;
+  content: "";
+  position: absolute;
+  top: 69%;
+  left: 58%;
+}
+.three:after {
+  background-image: url(./img/main/3-layers.png);
+  background-repeat: no-repeat;
+  width: 42px;
+  height: 42px;
+  display: block;
+  content: "";
+  position: absolute;
+  top: 69%;
+  left: 58%;
+}
+.four:after {
+  background-image: url(./img/main/4-layers.png);
+  background-repeat: no-repeat;
+  width: 42px;
+  height: 42px;
+  display: block;
+  content: "";
+  position: absolute;
+  top: 69%;
+  left: 58%;
+}
+.btn-foot {
+  width: 280px;
+  height: 40px;
+  border: 0 none;
+  cursor: pointer;
+  outline: none;
+  background-color: #ffffff;
+  border: 2px solid #ff4e50;
+  border-radius: 20px;
+  color: #ff4e50;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;

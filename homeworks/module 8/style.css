@@ -53,7 +53,6 @@
   margin-bottom: 38px;
 }
 .title-first {
-  font-size: 30px;
   margin-bottom: 20px;
   font-family: Montserrat;
   font-size: 30px;
@@ -95,7 +94,7 @@
 }
 .img-wrapper {
   position: relative;
-  width: 122px;
+  /* width: 122px; */
 }
 .item-title {
   color: #333333;
@@ -233,7 +232,7 @@
     flex-direction: row-reverse;
     margin-bottom: 40px;
   }
-.content-wrapper {
-  display: flex;
-}
+  .content-wrapper {
+    display: flex;
+  }
 }
