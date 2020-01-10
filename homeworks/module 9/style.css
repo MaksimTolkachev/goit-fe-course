@@ -1,12 +1,11 @@
-.header {
-  background-image: url(./img/head/Vector_Smart_Object.png);
+.container-fluid {
+  background-image: url(./img/head/2-layers.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 540px;
 }
 .head {
-  background: rgba(3, 1, 1, 0.3);
   height: 540px;
 }
 .autorize {
@@ -36,12 +35,11 @@
 }
 .first-name {
   color: #ffffff;
-  font-family: Montserrat;
   font-weight: 700;
   font-size: 20px;
+  letter-spacing: 1.5px
 }
 .title-first {
-  font-family: Montserrat;
   font-weight: 700;
   text-transform: uppercase;
   color: #ffffff;
